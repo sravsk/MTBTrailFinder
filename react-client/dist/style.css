@@ -1,0 +1,158 @@
+html {
+  height: 100%;
+}
+
+a {
+  color : #777;
+}
+
+body {
+  min-height: 100%;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+#content {
+  padding-top: 70px;
+  min-height: ~"calc(100vh - 92px)";
+  min-height : 800px;
+}
+
+footer {
+  .navbar;
+  .navbar-default;
+  border-radius: 0 !important;
+  border-bottom: 0;
+  margin: 20px 0 0;
+
+  .copyright {
+    padding-top: @padding-small-horizontal / 2;
+    padding-bottom: @padding-small-horizontal;
+  }
+}
+
+.navbar {
+  margin-bottom : 0px;
+ }
+
+ .container {
+  min-height : 6rem !important;
+ }
+
+ .header {
+    background-image: url(header-3.jpg);
+    border : none;
+    height: 576px;
+    background-position: center center;
+    width: 100%;
+    position: relative;
+    min-height: 350px;
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 400px;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+
+.navbar-brand-custom{
+  font-size: 34px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #777 !important;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.filterHeader {
+  margin : 0 50px;
+}
+
+.btn-toolbar {
+    margin-left: -5px;
+    margin: 0 auto;
+    border-radius: 50px;
+    top: 40%;
+    position: relative;
+}
+
+.btn-toolbar>.btn, .btn-toolbar>.btn-group, .btn-toolbar>.input-group {
+   height: 50px;
+    width: 100px;
+    margin-right: 180px;
+}
+
+.panel {
+  border : none;
+  border-radius : none;
+  background-image: url(header-3.jpg);
+  border: none;
+  height: 576px;
+  background-position: center center;
+  width: 100%;
+  position: relative;
+  min-height: 350px;
+  padding: 50px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.pull-right {
+    margin-right: 50px;
+}
+
+.container {
+  color : #fff;
+  min-height : 180px;
+ }
+
+.form-control {
+    margin-left: 80px;
+    float: left;
+    width: 50%;
+    height: 50px;
+}
+
+.dropdown.btn-group {
+    margin: 0 30px;
+}
+
+.header-top-container {
+  background-color: white;
+  line-height: 60px;
+}
+
+.header-top-container-logo {
+      display: block;
+    color: gray;
+    font-size: 15px;
+
+}
+
+.btn-toolbar {
+    margin-left: -5px;
+    margin: 0 auto;
+    border-radius: 50px;
+    top: 40%;
+    position: relative;
+}
+
+
+.btn-group>.btn:first-child {
+    margin-left: 0;
+    height: 50px;
+}
+
+.trail-thumbnail {
+  width : 100%;
+  height : 100%;
+}
